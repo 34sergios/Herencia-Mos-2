@@ -1,0 +1,52 @@
+/* Estilo base para el body */
+body {
+    font-family: Arial, sans-serif;
+    color: #333; /* Este color será heredado por los textos */
+    line-height: 1.6;
+  }
+  
+  /* Estilo para el header */
+  header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Los h1 heredan la fuente, pero sobrescribimos el color */
+  h1 {
+    color: #00060a;
+  }
+  
+  /* Los párrafos heredan el color del body */
+  p {
+    margin: 10px 0;
+  }
+  
+  /* Estilo específico para un párrafo */
+  .especial {
+    color: #00060a; /* Sobrescribe el color heredado */
+    font-weight: bold;
+  }
+  
+  /* Estilo para las secciones */
+  section {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+  
+  /* Los h2 heredan el color del body pero sobrescribimos el tamaño */
+  h2 {
+    font-size: 1.5em;
+    color: #00060a;
+  }
+  
+  /* Estilo para el footer */
+  footer {
+    text-align: center;
+    background-color: #00060a;
+    color: #fff; /* No hereda el color, lo sobrescribimos */
+    padding: 10px;
+  }
+  
